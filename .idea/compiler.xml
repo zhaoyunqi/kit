@@ -10,12 +10,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="kit" target="1.8" />
+      <module name="kit" target="7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="kit" options="-parameters" />
+      <module name="kit" options="" />
     </option>
   </component>
 </project>
