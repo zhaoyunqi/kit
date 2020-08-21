@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.zhaoyunqi</groupId>
+    <groupId>com.github.zhaoyunqi</groupId>
     <artifactId>kit</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>kit</name>
@@ -102,5 +102,33 @@
             </plugin>
         </plugins>
     </build>
-
+    <scm>
+        <connection>scm:git:https://github.com/zhaoyunqi/kit.git</connection>
+        <url>scm:https://github.com/zhaoyunqi/kit.git</url>
+        <developerConnection>scm:https://github.com/zhaoyunqi/kit.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+    <developers>
+        <developer>
+            <name>zhaoyunqi</name>
+            <email>289918088@qq.com</email>
+        </developer>
+    </developers>
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <distributionManagement>
+        <snapshotRepository>
+            <id>oss</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>oss</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+        </repository>
+    </distributionManagement>
 </project>
