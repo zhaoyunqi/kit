@@ -43,24 +43,9 @@
             <version>3.10</version>
         </dependency>
         <dependency>
-            <groupId>com.github.wxiaoqi</groupId>
-            <artifactId>ace-core</artifactId>
-            <version>4.0</version>
-        </dependency>
-        <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
             <version>5.2.8.RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>io.swagger</groupId>
-            <artifactId>swagger-annotations</artifactId>
-            <version>1.5.18</version>
-        </dependency>
-        <dependency>
-            <groupId>com.netflix.hystrix</groupId>
-            <artifactId>hystrix-core</artifactId>
-            <version>1.5.18</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
@@ -76,11 +61,6 @@
             <groupId>com.squareup.okhttp3</groupId>
             <artifactId>okhttp</artifactId>
             <version>3.14.9</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.security</groupId>
-            <artifactId>spring-security-core</artifactId>
-            <version>5.3.3.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.mybatis</groupId>
