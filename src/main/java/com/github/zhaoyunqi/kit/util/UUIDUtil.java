@@ -18,10 +18,6 @@ package com.github.zhaoyunqi.kit.util;
 
 import java.util.UUID;
 
-/**
- * @author zhaoyunqi@wondersgroup.com
- * @date 2020/8/25
- **/
 public class UUIDUtil {
 
     public static String[] chars = new String[] { "a", "b", "c", "d", "e", "f",
