@@ -1,4 +1,4 @@
-package com.github.zhaoyunqi.kit.biz;
+package com.github.zhaoyunqi.kit.service;
 
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
@@ -12,7 +12,7 @@ import java.lang.reflect.ParameterizedType;
 import java.util.List;
 import java.util.Map;
 
-public abstract class BaseBiz<M extends CommonMapper<T>, T> {
+public abstract class BaseService<M extends CommonMapper<T>, T> {
     @Autowired
     protected M mapper;
 
